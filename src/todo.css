@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+}
+
+.main-div{
+    width: 80vw;
+    background-color: #EFF1F2;
+    box-shadow: 5px 5px 50px 1px darkgrey;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+
+.main-heading{
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+.icon-todo{
+    margin: 1%;
+}
+
+.input-parent{
+    background-color: #FFFFFF;
+    border-bottom: 3px solid black;
+    width: 65vw;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+
+.input-todo{
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+    padding: 1%;
+    text-align: center;
+    margin-left: 8%;
+}
+
+.date{
+    border: 1px solid black;
+    padding: 0.5%;
+    margin-left: 5%;
+}
+.add-button{
+    margin-left: 10%;
+    background-color:#FFFFFF ;
+    border: none;
+    font-size: 1.5em;
+    
+
+}
+
+.hr{
+    width: 90%;
+    margin-top: 4%;
+}
+
+.display-data{
+
+    background-color:#FFFFFF ;
+    height: 45vh;
+    width: 67vw;
+    margin: 1% auto;
+    padding: 1%;
+
+}
+
+table{
+
+    width: 65vw;
+    margin: 0 auto;
+    background-color: navy;
+    padding: 0.5%;
+    color: #FFFFFF;
+}
+
+.table{
+    margin-top: 10%;
+    
+
+}
+
+.render-data{
+    background-color: #FFFFFF;
+    width: 65vw;
+    color: black;
+}
+
+.data{
+    color: black;
+}
+
+
+td{
+    text-align: center;
+    padding: 0.5%;
+    
+
+}
+
+tr{
+    margin-top: 5%;
+}
+
+.first{
+    margin-right: 20%;
+    background-color: lawngreen;
+    color: yellow;
+    border: none;
+}
+.second{
+    margin-left: 20%;
+    background-color: black;
+    color: red;
+    border: none;
+}
+
+/* ---- Media ---- Query */
+
+
+@media screen and (max-width:992px) {
+    
+
+  /* Input to-do */
+
+  .input-todo{
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+    padding: 1%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+    /* Add button  */
+
+    .add-button{
+        margin-left: 35%;
+        margin-top: 2%;
+        font-size: 1.5em;
+        width: 30%;
+        
+    
+    }
+
+    /* Display data */
+
+
+.main-div{
+    width: 80vw;
+    background-color: #EFF1F2;
+    box-shadow: 5px 5px 50px 1px darkgrey;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+
+    .display-data{
+
+        background-color:#FFFFFF ;
+        height: 45vh;
+        width: 67vw;
+        margin: 1% auto;
+        padding: 1%;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    /* Input to-do date */
+
+    .date{
+        margin-left: 9%;
+        width: 40vw;
+        margin-top: 2%;
+        margin-left: 15%;
+    }
+
+    /* Add button  */
+
+    .add-button{
+        margin-left: 35%;
+        margin-top: 2%;
+        font-size: 1.5em;
+        /* width: 20%; */
+        /* background-color: red; */
+        
+    
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+
+
+    /* Input to-do date */
+
+    .date{
+        margin-left: 9%;
+        width: 40vw;
+        margin-top: 2%;
+        margin-left: 18%;
+    }
+
+    /* Add button  */
+
+    .add-button{
+        margin-left: 35%;
+        margin-top: 2%;
+        font-size: 1.5em;
+        /* width: 20%; */
+        /* background-color: red; */
+        
+    
+    }
+
+    .input-todo{
+        border-top: none;
+        border-left: none;
+        border-right: none;  
+        padding: 1%;
+        text-align: center;
+        margin-left: 10%;
+        width: 50vw;
+    }
+.first{
+    margin-right: 1%;
+}
+    
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+    /* Input to-do date */
+
+    .date{
+        margin-left: 9%;
+        width: 40vw;
+        margin-top: 2%;
+        margin-left: 18%;
+    }
+
+    /* Add button  */
+
+    .add-button{
+        margin-left: 35%;
+        margin-top: 2%;
+        font-size: 1.5em;
+        /* width: 20%; */
+        /* background-color: red; */
+        
+    
+    }
+
+    .input-todo{
+        border-top: none;
+        border-left: none;
+        border-right: none;  
+        padding: 1%;
+        text-align: center;
+        margin-left: 10%;
+        width: 50vw;
+        /* font-size: 5%; */
+    }
+    .first{
+        margin-right: 10%;
+        width: 0%;
+        background-color: #FFFFFF;
+        color: yellow;
+        border: none;
+    }
+
+
+.second{
+    margin-right: 20%;
+    background-color: #FFFFFF;
+    color: red;
+    width: 0;
+    border: none;
+}
+
+
+.main-heading{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.display-data{
+
+    background-color:#FFFFFF ;
+    height: 60vh;
+    width: 67vw;
+    margin: 1% auto;
+    padding: 1%;
+
+}
+
+
+    
+}
